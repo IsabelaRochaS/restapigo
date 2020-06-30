@@ -17,7 +17,7 @@ make run
 To run tests of application, execute:
 
 ````
-go test -v ./router
+make test
 ````
 ##To test api calls:
 
