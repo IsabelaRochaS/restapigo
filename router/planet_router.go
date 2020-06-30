@@ -114,7 +114,7 @@ func Delete(w http.ResponseWriter, r *http.Request) {
 
 func validatePlanet(planet Planet) string {
 	if planet.Name == ""{
-		return "Name ir required."
+		return "Name is required."
 	}
 	if planet.Terrain == "" {
 		return "Terrain is required"
